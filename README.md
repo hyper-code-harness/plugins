@@ -3,20 +3,28 @@
 The listing Hyper shows on `/plugins/listing`. One file per plugin in `plugins/<name>.json`;
 `index.json` is generated from them and is what Hyper reads.
 
-Hyper installs a listed plugin with `bun add --ignore-scripts <source>#<commit>` into its plugin
-host (`~/.hyper/plugins`), after a preview of files, dependencies and conflicts and an explicit confirm.
+The listing says **which** plugins exist, not which version. A release is a semver tag `vX.Y.Z` in the
+plugin's own repository; Hyper offers the newest tag, installs it with `bun add --ignore-scripts
+github:<owner>/<repo>#vX.Y.Z` into its plugin host (`~/.hyper/plugins`) after a preview and an explicit
+confirm, and bun pins the exact commit and integrity in the host's `bun.lock`. Releasing a plugin never
+touches this repository.
 
-## Add or update a plugin
+## Add a plugin
 
-1. Publish the plugin as its own GitHub repository (`package.json` with `procs`, `SKILL.md`, `src/<namespace>/…`)
-   and push a tag equal to the version, e.g. `v1.0.0`.
-2. Add or edit `plugins/<name>.json`:
+1. Publish the plugin as its own GitHub repository: `package.json` with `name`, `version` and a `procs`
+   block (plugins it needs go to `procs.requires`), `SKILL.md`, `src/<namespace>/…`.
+2. Tag a release equal to the version: `git tag v1.0.0 && git push --tags`.
+3. Add `plugins/<name>.json`:
 
    ```json
    { "name": "mermaid", "label": "Mermaid", "icon": "ph-graph", "description": "…",
-     "source": "github:hyper-code-harness/mermaid", "version": "1.0.0", "ref": "v1.0.0",
-     "commit": "<full sha the tag points at>" }
+     "source": "github:hyper-code-harness/mermaid" }
    ```
-3. `bun scripts/build.ts` regenerates `index.json`; `bun scripts/build.ts --check --remote` is what CI runs:
-   the tag must still point at the pinned commit, and the package name and version must match.
-4. Open a pull request.
+4. `bun scripts/build.ts` regenerates `index.json`; `bun scripts/build.ts --check --remote` is what CI runs
+   (on every push and daily): the repo must have a `vX.Y.Z` tag whose `package.json` has `procs`, the listed
+   name and the tag's version.
+5. Open a pull request.
+
+## Release a new version
+
+Bump `version` in the plugin's `package.json`, commit, tag `vX.Y.Z`, push. Nothing to change here.
