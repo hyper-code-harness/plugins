@@ -1,0 +1,10 @@
+{
+  "name": "duckdb",
+  "label": "DuckDB",
+  "icon": "ph-database",
+  "description": "Query JSON, CSV, Parquet, DuckDB files, and project Postgres with SQL; produce Markdown tables.",
+  "source": "github:hyper-code-harness/duckdb",
+  "version": "1.0.0",
+  "ref": "v1.0.0",
+  "commit": "cb78c78cfaac0a55842cb4dafc75807e47a89a05"
+}

@@ -2,9 +2,9 @@
   "name": "vegalite",
   "label": "Vega-Lite",
   "icon": "ph-chart-bar",
-  "description": "Render charts as inline SVG from Vega-Lite specifications and local CSV, JSON, or NDJSON data.",
+  "description": "Render charts as inline SVG from Vega-Lite specs, local CSV/JSON/NDJSON data, rows, or DuckDB SQL (with the duckdb plugin).",
   "source": "github:hyper-code-harness/vegalite",
-  "version": "1.0.0",
-  "ref": "v1.0.0",
-  "commit": "b237f50529ee40bbe4d3862119bc7c7b31721af4"
+  "version": "1.1.0",
+  "ref": "v1.1.0",
+  "commit": "53736d17fdf3764226195c0e4f6c6e23ebcd7eec"
 }
