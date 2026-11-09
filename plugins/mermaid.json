@@ -1,0 +1,10 @@
+{
+  "name": "mermaid",
+  "label": "Mermaid",
+  "icon": "ph-graph",
+  "description": "Render flowcharts, sequence, state, class, ER, gantt, timeline and other Mermaid diagrams as inline SVG.",
+  "source": "github:hyper-code-harness/mermaid",
+  "version": "1.0.1",
+  "ref": "v1.0.1",
+  "commit": "770739ca7142e44e8a0848b2a9d06e96369a7054"
+}

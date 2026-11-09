@@ -1,0 +1,10 @@
+{
+  "name": "vegalite",
+  "label": "Vega-Lite",
+  "icon": "ph-chart-bar",
+  "description": "Render charts as inline SVG from Vega-Lite specifications and local CSV, JSON, or NDJSON data.",
+  "source": "github:hyper-code-harness/vegalite",
+  "version": "1.0.0",
+  "ref": "v1.0.0",
+  "commit": "b237f50529ee40bbe4d3862119bc7c7b31721af4"
+}
