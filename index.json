@@ -16,6 +16,13 @@
       "source": "github:hyper-code-harness/mermaid"
     },
     {
+      "name": "telegram",
+      "label": "Telegram",
+      "icon": "ph-telegram-logo",
+      "description": "Read and search chats, messages, contacts, folders, and participants, with guarded messaging actions.",
+      "source": "github:hyper-code-harness/telegram"
+    },
+    {
       "name": "vegalite",
       "label": "Vega-Lite",
       "icon": "ph-chart-bar",
