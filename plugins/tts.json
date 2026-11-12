@@ -1,0 +1,7 @@
+{
+  "name": "tts",
+  "label": "Google Cloud Text-to-Speech",
+  "icon": "ph-speaker-high",
+  "description": "Synthesize speech with Google Cloud Text-to-Speech and browse available voices.",
+  "source": "github:hyper-code-harness/tts"
+}

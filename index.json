@@ -16,11 +16,32 @@
       "source": "github:hyper-code-harness/mermaid"
     },
     {
+      "name": "pipedrive",
+      "label": "Pipedrive",
+      "icon": "ph-kanban",
+      "description": "Read and search CRM deals, contacts, organizations, pipelines, and attached email threads.",
+      "source": "github:hyper-code-harness/pipedrive"
+    },
+    {
+      "name": "reladraw",
+      "label": "Reladraw",
+      "icon": "ph-flow-arrow",
+      "description": "Create and validate diagrams with explicit relative placement, and render them as inline SVG.",
+      "source": "github:hyper-code-harness/reladraw"
+    },
+    {
       "name": "telegram",
       "label": "Telegram",
       "icon": "ph-telegram-logo",
       "description": "Read and search chats, messages, contacts, folders, and participants, with guarded messaging actions.",
       "source": "github:hyper-code-harness/telegram"
+    },
+    {
+      "name": "tts",
+      "label": "Google Cloud Text-to-Speech",
+      "icon": "ph-speaker-high",
+      "description": "Synthesize speech with Google Cloud Text-to-Speech and browse available voices.",
+      "source": "github:hyper-code-harness/tts"
     },
     {
       "name": "vegalite",

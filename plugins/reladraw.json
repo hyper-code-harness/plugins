@@ -1,0 +1,7 @@
+{
+  "name": "reladraw",
+  "label": "Reladraw",
+  "icon": "ph-flow-arrow",
+  "description": "Create and validate diagrams with explicit relative placement, and render them as inline SVG.",
+  "source": "github:hyper-code-harness/reladraw"
+}

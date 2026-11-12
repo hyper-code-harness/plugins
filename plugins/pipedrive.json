@@ -1,0 +1,7 @@
+{
+  "name": "pipedrive",
+  "label": "Pipedrive",
+  "icon": "ph-kanban",
+  "description": "Read and search CRM deals, contacts, organizations, pipelines, and attached email threads.",
+  "source": "github:hyper-code-harness/pipedrive"
+}
