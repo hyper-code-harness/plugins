@@ -44,6 +44,13 @@
       "source": "github:hyper-code-harness/tts"
     },
     {
+      "name": "uigma",
+      "label": "Uigma",
+      "icon": "ph-bezier-curve",
+      "description": "Design files and boards in a full Figma-like editor on the canvas (OpenPencil): frames, auto layout, components with variants, variables, vectors, stickies, connectors and sections; .fig files in and out; the agent edits the same open file with uigma.run while the person watches.",
+      "source": "github:hyper-code-harness/uigma"
+    },
+    {
       "name": "vegalite",
       "label": "Vega-Lite",
       "icon": "ph-chart-bar",
