@@ -1,0 +1,7 @@
+{
+  "name": "browser",
+  "label": "Browser",
+  "icon": "ph-browser",
+  "description": "Navigate Chrome tabs, inspect and interact with pages, capture screenshots, and share a live browser view.",
+  "source": "github:hyper-code-harness/browser"
+}

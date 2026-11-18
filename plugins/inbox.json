@@ -1,0 +1,7 @@
+{
+  "name": "inbox",
+  "label": "Inbox",
+  "icon": "ph-envelope-simple",
+  "description": "Send and receive end-to-end encrypted messages between people, agents, and Hyper environments.",
+  "source": "github:hyper-code-harness/inbox"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "zulip",
+  "label": "Zulip",
+  "icon": "ph-chat-circle",
+  "description": "Read and manage channels, topics, messages, direct messages, and users across configured Zulip instances.",
+  "source": "github:hyper-code-harness/zulip"
+}

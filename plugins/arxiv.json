@@ -1,0 +1,7 @@
+{
+  "name": "arxiv",
+  "label": "arXiv",
+  "icon": "ph-article",
+  "description": "Search arXiv preprints, read abstracts and citations, and download papers or source archives.",
+  "source": "github:hyper-code-harness/arxiv"
+}

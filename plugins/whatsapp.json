@@ -1,0 +1,7 @@
+{
+  "name": "whatsapp",
+  "label": "WhatsApp",
+  "icon": "ph-whatsapp-logo",
+  "description": "Link a WhatsApp account by QR, mirror chats and messages locally, search them, and send messages or join groups with confirmation.",
+  "source": "github:hyper-code-harness/whatsapp"
+}

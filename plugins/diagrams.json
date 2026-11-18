@@ -1,0 +1,7 @@
+{
+  "name": "diagrams",
+  "label": "Diagrams",
+  "icon": "ph-flow-arrow",
+  "description": "Compose typed interaction scenarios with synchronous helpers and render sequence diagrams as standalone SVG.",
+  "source": "github:hyper-code-harness/diagrams"
+}

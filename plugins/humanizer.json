@@ -1,0 +1,7 @@
+{
+  "name": "humanizer",
+  "label": "Humanizer",
+  "icon": "ph-pen-nib",
+  "description": "Rewrite AI-sounding work text in a plain human voice without changing its facts or commitments, using the MIT-licensed work-humanizer skill by Pawel Huryn.",
+  "source": "github:hyper-code-harness/humanizer"
+}

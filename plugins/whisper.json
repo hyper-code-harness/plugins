@@ -1,0 +1,7 @@
+{
+  "name": "whisper",
+  "label": "Whisper",
+  "icon": "ph-microphone",
+  "description": "Transcribe audio locally with whisper.cpp on Apple Silicon and manage speech-recognition models.",
+  "source": "github:hyper-code-harness/whisper"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "mineru",
+  "label": "MinerU PDF",
+  "icon": "ph-file-text",
+  "description": "Convert complex PDFs and scans to Markdown with MinerU on Apple Silicon and inspect conversion artifacts.",
+  "source": "github:hyper-code-harness/mineru"
+}

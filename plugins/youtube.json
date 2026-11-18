@@ -1,0 +1,7 @@
+{
+  "name": "youtube",
+  "label": "YouTube",
+  "icon": "ph-youtube-logo",
+  "description": "Search YouTube and retrieve video metadata, playlists, and transcripts through yt-dlp.",
+  "source": "github:hyper-code-harness/youtube"
+}

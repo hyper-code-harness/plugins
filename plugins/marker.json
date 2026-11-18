@@ -1,0 +1,7 @@
+{
+  "name": "marker",
+  "label": "Marker PDF",
+  "icon": "ph-file-pdf",
+  "description": "Convert PDFs to Markdown with Marker on Apple Silicon and inspect output files and conversion quality.",
+  "source": "github:hyper-code-harness/marker"
+}

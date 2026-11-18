@@ -1,0 +1,7 @@
+{
+  "name": "svg",
+  "label": "SVG",
+  "icon": "ph-pen-nib",
+  "description": "Draw diagrams and custom graphics as inline SVG, written as literal markup or computed with TSX.",
+  "source": "github:hyper-code-harness/svg"
+}

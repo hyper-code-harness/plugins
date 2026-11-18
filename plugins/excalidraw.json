@@ -1,0 +1,7 @@
+{
+  "name": "excalidraw",
+  "label": "Excalidraw",
+  "icon": "ph-pencil-simple-line",
+  "description": "Create hand-drawn diagrams from Mermaid or shapes, edit them visually, and embed sketches in chat.",
+  "source": "github:hyper-code-harness/excalidraw"
+}

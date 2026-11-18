@@ -1,0 +1,7 @@
+{
+  "name": "google",
+  "label": "Google Workspace",
+  "icon": "ph-google-logo",
+  "description": "Access Gmail, Calendar, Docs, Drive, Sheets, Tasks, and Workspace Directory through shared Google authentication.",
+  "source": "github:hyper-code-harness/google"
+}

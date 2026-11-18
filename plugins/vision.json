@@ -1,0 +1,7 @@
+{
+  "name": "vision",
+  "label": "Image OCR",
+  "icon": "ph-eye",
+  "description": "Extract text from images locally with Apple Vision or Qwen3-VL through LM Studio.",
+  "source": "github:hyper-code-harness/vision"
+}

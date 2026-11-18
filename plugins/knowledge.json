@@ -1,0 +1,7 @@
+{
+  "name": "knowledge",
+  "label": "Knowledge",
+  "icon": "ph-graph",
+  "description": "Store and search typed people, organizations, products, and concepts with sources and relationships.",
+  "source": "github:hyper-code-harness/knowledge"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "pdf",
+  "label": "PDF Parser",
+  "icon": "ph-file-pdf",
+  "description": "Convert PDFs to Markdown with automatic engine selection, quality checks, provenance, and engine comparisons.",
+  "source": "github:hyper-code-harness/pdf"
+}

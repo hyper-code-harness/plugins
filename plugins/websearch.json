@@ -1,0 +1,7 @@
+{
+  "name": "websearch",
+  "label": "Web Search",
+  "icon": "ph-magnifying-glass",
+  "description": "Search the public web through the Brave API or Google in the user’s browser.",
+  "source": "github:hyper-code-harness/websearch"
+}

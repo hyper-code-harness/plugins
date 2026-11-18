@@ -1,0 +1,7 @@
+{
+  "name": "research",
+  "label": "Research",
+  "icon": "ph-microscope",
+  "description": "Find peer-reviewed evidence through Consensus, with synthesized answers, ranked papers, citations, and follow-ups.",
+  "source": "github:hyper-code-harness/research"
+}

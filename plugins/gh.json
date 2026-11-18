@@ -1,0 +1,7 @@
+{
+  "name": "gh",
+  "label": "GitHub",
+  "icon": "ph-github-logo",
+  "description": "Browse and search repositories, issues, pull requests, and reviews, with guarded write operations.",
+  "source": "github:hyper-code-harness/gh"
+}

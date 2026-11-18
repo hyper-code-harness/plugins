@@ -1,0 +1,7 @@
+{
+  "name": "medsearch",
+  "label": "Medical Literature",
+  "icon": "ph-first-aid-kit",
+  "description": "Search PubMed and Europe PMC, rank relevant papers, read abstracts, and retrieve related work and open full text.",
+  "source": "github:hyper-code-harness/medsearch"
+}

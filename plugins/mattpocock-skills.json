@@ -1,0 +1,7 @@
+{
+  "name": "mattpocock-skills",
+  "label": "Matt Pocock skills",
+  "icon": "ph-chalkboard-teacher",
+  "description": "Matt Pocock's MIT-licensed engineering skills for coding agents — grilling, TDD, bug diagnosis, two-axis code review, domain glossary, writing for agents — vendored verbatim and mapped onto Hyper tools.",
+  "source": "github:hyper-code-harness/mattpocock-skills"
+}

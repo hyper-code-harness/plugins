@@ -1,0 +1,7 @@
+{
+  "name": "tasks",
+  "label": "Tasks",
+  "icon": "ph-check-square",
+  "description": "Track tasks with a dedicated agent chat attached to each task.",
+  "source": "github:hyper-code-harness/tasks"
+}

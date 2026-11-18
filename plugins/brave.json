@@ -1,0 +1,7 @@
+{
+  "name": "brave",
+  "label": "Brave Search",
+  "icon": "ph-magnifying-glass",
+  "description": "Search the web through the Brave API with provider-specific filters and raw responses.",
+  "source": "github:hyper-code-harness/brave"
+}

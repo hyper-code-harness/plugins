@@ -1,0 +1,7 @@
+{
+  "name": "hyperlet",
+  "label": "Hyperlet",
+  "icon": "ph-globe-hemisphere-west",
+  "description": "Publish local services to the team VPN, inspect their status, and remove published endpoints.",
+  "source": "github:hyper-code-harness/hyperlet"
+}

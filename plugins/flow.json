@@ -1,0 +1,7 @@
+{
+  "name": "flow",
+  "label": "Flows",
+  "icon": "ph-list-checks",
+  "description": "Find attention gaps in source data and apply explicit, individually verified actions.",
+  "source": "github:hyper-code-harness/flow"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "architecture-map",
+  "label": "Architecture map",
+  "icon": "ph-graph",
+  "description": "Summarize Hyper's indexed function call graph as a module dependency map for architecture exploration, coupling review, cycle discovery, and interactive Canvas visualization.",
+  "source": "github:hyper-code-harness/architecture-map"
+}

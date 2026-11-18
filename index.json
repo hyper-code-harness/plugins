@@ -2,6 +2,48 @@
   "format": 2,
   "plugins": [
     {
+      "name": "architecture-map",
+      "label": "Architecture map",
+      "icon": "ph-graph",
+      "description": "Summarize Hyper's indexed function call graph as a module dependency map for architecture exploration, coupling review, cycle discovery, and interactive Canvas visualization.",
+      "source": "github:hyper-code-harness/architecture-map"
+    },
+    {
+      "name": "arxiv",
+      "label": "arXiv",
+      "icon": "ph-article",
+      "description": "Search arXiv preprints, read abstracts and citations, and download papers or source archives.",
+      "source": "github:hyper-code-harness/arxiv"
+    },
+    {
+      "name": "brave",
+      "label": "Brave Search",
+      "icon": "ph-magnifying-glass",
+      "description": "Search the web through the Brave API with provider-specific filters and raw responses.",
+      "source": "github:hyper-code-harness/brave"
+    },
+    {
+      "name": "browser",
+      "label": "Browser",
+      "icon": "ph-browser",
+      "description": "Navigate Chrome tabs, inspect and interact with pages, capture screenshots, and share a live browser view.",
+      "source": "github:hyper-code-harness/browser"
+    },
+    {
+      "name": "desktop",
+      "label": "Desktop",
+      "icon": "ph-desktop",
+      "description": "Inspect and control macOS apps and windows locally or over SSH, with screenshots, OCR, clicks, and typing.",
+      "source": "github:hyper-code-harness/desktop"
+    },
+    {
+      "name": "diagrams",
+      "label": "Diagrams",
+      "icon": "ph-flow-arrow",
+      "description": "Compose typed interaction scenarios with synchronous helpers and render sequence diagrams as standalone SVG.",
+      "source": "github:hyper-code-harness/diagrams"
+    },
+    {
       "name": "duckdb",
       "label": "DuckDB",
       "icon": "ph-database",
@@ -9,11 +51,116 @@
       "source": "github:hyper-code-harness/duckdb"
     },
     {
+      "name": "excalidraw",
+      "label": "Excalidraw",
+      "icon": "ph-pencil-simple-line",
+      "description": "Create hand-drawn diagrams from Mermaid or shapes, edit them visually, and embed sketches in chat.",
+      "source": "github:hyper-code-harness/excalidraw"
+    },
+    {
+      "name": "flow",
+      "label": "Flows",
+      "icon": "ph-list-checks",
+      "description": "Find attention gaps in source data and apply explicit, individually verified actions.",
+      "source": "github:hyper-code-harness/flow"
+    },
+    {
+      "name": "gh",
+      "label": "GitHub",
+      "icon": "ph-github-logo",
+      "description": "Browse and search repositories, issues, pull requests, and reviews, with guarded write operations.",
+      "source": "github:hyper-code-harness/gh"
+    },
+    {
+      "name": "google",
+      "label": "Google Workspace",
+      "icon": "ph-google-logo",
+      "description": "Access Gmail, Calendar, Docs, Drive, Sheets, Tasks, and Workspace Directory through shared Google authentication.",
+      "source": "github:hyper-code-harness/google"
+    },
+    {
+      "name": "gplaces",
+      "label": "Google Places",
+      "icon": "ph-map-pin",
+      "description": "Find nearby places and retrieve addresses, opening hours, ratings, reviews, and photos.",
+      "source": "github:hyper-code-harness/gplaces"
+    },
+    {
+      "name": "humanizer",
+      "label": "Humanizer",
+      "icon": "ph-pen-nib",
+      "description": "Rewrite AI-sounding work text in a plain human voice without changing its facts or commitments, using the MIT-licensed work-humanizer skill by Pawel Huryn.",
+      "source": "github:hyper-code-harness/humanizer"
+    },
+    {
+      "name": "hyperlet",
+      "label": "Hyperlet",
+      "icon": "ph-globe-hemisphere-west",
+      "description": "Publish local services to the team VPN, inspect their status, and remove published endpoints.",
+      "source": "github:hyper-code-harness/hyperlet"
+    },
+    {
+      "name": "icons",
+      "label": "Icons",
+      "icon": "ph-shapes",
+      "description": "Search local Lucide SVG icons and install consistently padded chat icons.",
+      "source": "github:hyper-code-harness/icons"
+    },
+    {
+      "name": "inbox",
+      "label": "Inbox",
+      "icon": "ph-envelope-simple",
+      "description": "Send and receive end-to-end encrypted messages between people, agents, and Hyper environments.",
+      "source": "github:hyper-code-harness/inbox"
+    },
+    {
+      "name": "knowledge",
+      "label": "Knowledge",
+      "icon": "ph-graph",
+      "description": "Store and search typed people, organizations, products, and concepts with sources and relationships.",
+      "source": "github:hyper-code-harness/knowledge"
+    },
+    {
+      "name": "marker",
+      "label": "Marker PDF",
+      "icon": "ph-file-pdf",
+      "description": "Convert PDFs to Markdown with Marker on Apple Silicon and inspect output files and conversion quality.",
+      "source": "github:hyper-code-harness/marker"
+    },
+    {
+      "name": "mattpocock-skills",
+      "label": "Matt Pocock skills",
+      "icon": "ph-chalkboard-teacher",
+      "description": "Matt Pocock's MIT-licensed engineering skills for coding agents — grilling, TDD, bug diagnosis, two-axis code review, domain glossary, writing for agents — vendored verbatim and mapped onto Hyper tools.",
+      "source": "github:hyper-code-harness/mattpocock-skills"
+    },
+    {
+      "name": "medsearch",
+      "label": "Medical Literature",
+      "icon": "ph-first-aid-kit",
+      "description": "Search PubMed and Europe PMC, rank relevant papers, read abstracts, and retrieve related work and open full text.",
+      "source": "github:hyper-code-harness/medsearch"
+    },
+    {
       "name": "mermaid",
       "label": "Mermaid",
       "icon": "ph-graph",
       "description": "Render flowcharts, sequence, state, class, ER, gantt, timeline and other Mermaid diagrams as inline SVG.",
       "source": "github:hyper-code-harness/mermaid"
+    },
+    {
+      "name": "mineru",
+      "label": "MinerU PDF",
+      "icon": "ph-file-text",
+      "description": "Convert complex PDFs and scans to Markdown with MinerU on Apple Silicon and inspect conversion artifacts.",
+      "source": "github:hyper-code-harness/mineru"
+    },
+    {
+      "name": "pdf",
+      "label": "PDF Parser",
+      "icon": "ph-file-pdf",
+      "description": "Convert PDFs to Markdown with automatic engine selection, quality checks, provenance, and engine comparisons.",
+      "source": "github:hyper-code-harness/pdf"
     },
     {
       "name": "pipedrive",
@@ -30,11 +177,39 @@
       "source": "github:hyper-code-harness/reladraw"
     },
     {
+      "name": "research",
+      "label": "Research",
+      "icon": "ph-microscope",
+      "description": "Find peer-reviewed evidence through Consensus, with synthesized answers, ranked papers, citations, and follow-ups.",
+      "source": "github:hyper-code-harness/research"
+    },
+    {
+      "name": "svg",
+      "label": "SVG",
+      "icon": "ph-pen-nib",
+      "description": "Draw diagrams and custom graphics as inline SVG, written as literal markup or computed with TSX.",
+      "source": "github:hyper-code-harness/svg"
+    },
+    {
+      "name": "tasks",
+      "label": "Tasks",
+      "icon": "ph-check-square",
+      "description": "Track tasks with a dedicated agent chat attached to each task.",
+      "source": "github:hyper-code-harness/tasks"
+    },
+    {
       "name": "telegram",
       "label": "Telegram",
       "icon": "ph-telegram-logo",
       "description": "Read and search chats, messages, contacts, folders, and participants, with guarded messaging actions.",
       "source": "github:hyper-code-harness/telegram"
+    },
+    {
+      "name": "telemetry",
+      "label": "Telemetry",
+      "icon": "ph-pulse",
+      "description": "Store and query runtime traces with NDJSON and Parquet, and inspect performance in a dashboard.",
+      "source": "github:hyper-code-harness/telemetry"
     },
     {
       "name": "tts",
@@ -56,6 +231,48 @@
       "icon": "ph-chart-bar",
       "description": "Render charts as inline SVG from Vega-Lite specs, local CSV/JSON/NDJSON data, rows, or DuckDB SQL (with the duckdb plugin).",
       "source": "github:hyper-code-harness/vegalite"
+    },
+    {
+      "name": "vision",
+      "label": "Image OCR",
+      "icon": "ph-eye",
+      "description": "Extract text from images locally with Apple Vision or Qwen3-VL through LM Studio.",
+      "source": "github:hyper-code-harness/vision"
+    },
+    {
+      "name": "websearch",
+      "label": "Web Search",
+      "icon": "ph-magnifying-glass",
+      "description": "Search the public web through the Brave API or Google in the user’s browser.",
+      "source": "github:hyper-code-harness/websearch"
+    },
+    {
+      "name": "whatsapp",
+      "label": "WhatsApp",
+      "icon": "ph-whatsapp-logo",
+      "description": "Link a WhatsApp account by QR, mirror chats and messages locally, search them, and send messages or join groups with confirmation.",
+      "source": "github:hyper-code-harness/whatsapp"
+    },
+    {
+      "name": "whisper",
+      "label": "Whisper",
+      "icon": "ph-microphone",
+      "description": "Transcribe audio locally with whisper.cpp on Apple Silicon and manage speech-recognition models.",
+      "source": "github:hyper-code-harness/whisper"
+    },
+    {
+      "name": "youtube",
+      "label": "YouTube",
+      "icon": "ph-youtube-logo",
+      "description": "Search YouTube and retrieve video metadata, playlists, and transcripts through yt-dlp.",
+      "source": "github:hyper-code-harness/youtube"
+    },
+    {
+      "name": "zulip",
+      "label": "Zulip",
+      "icon": "ph-chat-circle",
+      "description": "Read and manage channels, topics, messages, direct messages, and users across configured Zulip instances.",
+      "source": "github:hyper-code-harness/zulip"
     }
   ]
 }
