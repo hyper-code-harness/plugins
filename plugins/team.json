@@ -1,0 +1,7 @@
+{
+  "name": "team",
+  "label": "Team",
+  "icon": "ph-users-three",
+  "description": "Persistent fixed-roster teams with a transactional board, public timeline and explicit review.",
+  "source": "github:hyper-code-harness/team"
+}

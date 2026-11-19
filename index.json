@@ -198,6 +198,13 @@
       "source": "github:hyper-code-harness/tasks"
     },
     {
+      "name": "team",
+      "label": "Team",
+      "icon": "ph-users-three",
+      "description": "Persistent fixed-roster teams with a transactional board, public timeline and explicit review.",
+      "source": "github:hyper-code-harness/team"
+    },
+    {
       "name": "telegram",
       "label": "Telegram",
       "icon": "ph-telegram-logo",
